@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/app.js"></script>
+    <script src="JS/player.js"></script>
+    <script src="JS/enemy.js"></script>
+    <title>Fight Club</title>
+</head>
+<body>
+    <div class="header">
+        <p>Welcome To Fight Club!</p>
+        <h2>Choose Your Fighter</h2>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="img/player/warrior.png" alt="Warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Warriors have higher health and stamina. However,
+                    their strength also makes them slower.
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Rouge')">
+            <img src="img/player/rouge.png" alt="Rouge">
+            <div>
+                <h3>Rouge</h3>
+                <p>Rouges are fast. Theyhave high stamina and speed
+                    which makes up for their lack in strength and health
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="img/player/mage.png" alt="Mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Warriors have higher health and stamina. However,
+                    their strength also makes them slower.
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="img/player/hunter.png" alt="Hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Hunters are well rounded fighters. They focus on even skills. 
+                    No unbalanced strengths or weaknesses.
+                </p>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="enemy">
+
+    </div>
+    
+
+    
+</body>
+</html>
